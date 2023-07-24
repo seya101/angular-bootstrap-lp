@@ -1,0 +1,53 @@
+    /* Custom CSS for carousel control buttons */
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 40px;
+      height: 40px;
+      border-radius: 20%;
+      top: 5px;
+      
+    }
+
+    .prev-icon, .next-icon {
+        color: #0ede8e;
+        font-size: 25px;
+        opacity: 0.5;
+    }
+   
+    .carousel-control-prev:hover,
+    .carousel-control-next:hover {
+      border: 1px solid #0ede8e;
+      color: #ffffff;
+      opacity: 1;
+    }
+
+    .carousel-control-prev {
+      left: 570px;
+    }
+
+    .carousel-control-next {
+      right: 50px;
+    }
+
+@media only screen and (max-width: 600px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+      top: 200px;
+      
+  }
+  .carousel-control-prev {
+    left: 0px;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+      display: none;
+      
+  }
+}

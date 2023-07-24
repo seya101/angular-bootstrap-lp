@@ -1,0 +1,12 @@
+.bg-box-featured {
+    background-color: #00D293;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+}
+
+.menu-text {
+    flex-grow: 1;
+}
